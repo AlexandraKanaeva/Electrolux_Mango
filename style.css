@@ -1,0 +1,49 @@
+.page {
+    width: 1280px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    display: flex;
+}
+.header a {
+    text-decoration: none;
+    color: #000;
+}
+.header_logo {
+    margin-right: 38px;
+    margin-left: 50px;
+}
+.header_menu {
+    display: flex;
+}
+.header_list {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+    margin-top: 27px;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+}
+.header_telephone {
+    margin-left: 344px;
+    margin-right: 36px;
+}
+.main {
+    text-align: center;
+}
+.main_title {
+    margin-top: 49px;
+    margin-bottom: 27px;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 120px;
+}
+.main_lead {
+    margin: 0px;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+}
