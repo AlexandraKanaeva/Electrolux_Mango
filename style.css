@@ -2,14 +2,19 @@
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
 .header {
     display: flex;
+    flex-flow: row wrap;
 }
 .header a {
     text-decoration: none;
     color: #000;
+}
+.header_logo {
+    margin-right: 38px;
 }
 .header_menu {
     display: flex;
@@ -23,6 +28,19 @@
     font-weight: 500;
     font-size: 26px;
     line-height: 30px;
+}
+.header_telephone {
+    list-style: none;
+    margin-top: 27px;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+    order: 999;
+    margin-left: auto;
+}
+.main {
+    display: block;
+    width: 100%;
 }
 .main_title {
     margin-top: 49px;
