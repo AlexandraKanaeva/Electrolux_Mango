@@ -1,6 +1,6 @@
 .page {
     width: 100%;
-    max-width: 1280px;
+    max-width: 1184px;
     margin: 0 auto;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
@@ -14,10 +14,7 @@
     color: #000;
 }
 .header_logo {
-    margin-right: 38px;
-}
-.header_menu {
-    display: flex;
+    margin-right: 40px;
 }
 .header_list {
     display: flex;
@@ -38,20 +35,77 @@
     order: 999;
     margin-left: auto;
 }
-.main {
-    display: block;
+.main_foto {
+    display: block; 
     width: 100%;
+    margin-top: 17px;
 }
-.main_title {
-    margin-top: 49px;
-    margin-bottom: 27px;
+.main_h1 {
+    margin-top: 50px;
+    margin-bottom: 29px;
     font-weight: 700;
     font-size: 120px;
     line-height: 120px;
+    text-align: center;
 }
 .main_lead {
-    margin: 0px;
+    margin: 0;
     font-size: 32px;
     font-weight: 400;
     line-height: 38px;
+    text-align: center;
+}
+.main_description {
+    margin: 131px 0;
+}
+.paragraph {
+    display: flex;
+    background-color: #DDE9F0;
+    padding: 0;
+    max-height: 589px;
+    margin-bottom: 100px
+}
+.paragraph_box {
+    padding: 0;
+    margin: 24px 70px 0px 54px;
+}
+.paragraph_h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    margin-bottom: 26px;
+}
+.paragraph_text {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+}
+.footer a {
+    text-decoration: none;
+    color: #000;
+}
+.footer_logo {
+    margin-right: 40px;
+}
+.footer_list {
+    list-style: none;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    padding: 0;
+}
+.footer_media {
+    order: 999;
+    margin-left: auto;
+}
+.footer_media_list {
+    display: flex;
+    list-style: none;
+    gap: 22px;
+    padding-top: 60px;
 }
