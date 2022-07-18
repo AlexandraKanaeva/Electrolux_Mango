@@ -16,12 +16,16 @@
 .header_logo {
     margin-right: 40px;
 }
+.header_menu {
+    display: flex;
+}
 .header_list {
     display: flex;
     list-style: none;
     gap: 20px;
     padding: 0;
     margin-top: 27px;
+    margin-right: 364px;
     font-weight: 500;
     font-size: 26px;
     line-height: 30px;
@@ -32,15 +36,13 @@
     font-weight: 500;
     font-size: 26px;
     line-height: 30px;
-    order: 999;
-    margin-left: auto;
 }
 .main_foto {
     display: block; 
     width: 100%;
     margin-top: 17px;
 }
-.main_h1 {
+h1 {
     margin-top: 50px;
     margin-bottom: 29px;
     font-weight: 700;
@@ -69,13 +71,13 @@
     padding: 0;
     margin: 24px 70px 0px 54px;
 }
-.paragraph_h2 {
+h2 {
     font-size: 40px;
     font-weight: 700;
     line-height: 47px;
     margin-bottom: 26px;
 }
-.paragraph_text {
+p {
     font-size: 24px;
     font-weight: 400;
     line-height: 28px;
@@ -84,6 +86,7 @@
 .footer {
     display: flex;
     flex-flow: row wrap;
+    margin-bottom: 40px;
 }
 .footer a {
     text-decoration: none;
@@ -92,7 +95,11 @@
 .footer_logo {
     margin-right: 40px;
 }
-.footer_list {
+.footer_contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     list-style: none;
     font-weight: 500;
     font-size: 24px;
@@ -100,12 +107,10 @@
     padding: 0;
 }
 .footer_media {
-    order: 999;
-    margin-left: auto;
-}
-.footer_media_list {
     display: flex;
     list-style: none;
     gap: 22px;
-    padding-top: 60px;
+    padding-top: 59px;
+    order: 999;
+    margin-left: auto;
 }
